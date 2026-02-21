@@ -4,22 +4,10 @@
     padding: 2px;
     top: 30px;
     width: 60px;
-    height: 4px;
+    height: 2px;
     right: -30px;
 }
 
-.logo{
-    text-align: center;
-    padding: 30px;
-}
-nav{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    gap: 20px;;
-    padding: 15px 30px;
-
-}
 
 .direitos{
     padding: 10px;
@@ -31,10 +19,7 @@ nav{
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    position: relative;
-    margin: 100px;
-
-
+    max-width: 1000px;
 }
 
 .vermais{
@@ -42,6 +27,7 @@ nav{
     background: #ee2211;
     place-self: start end;
     border-radius: 4px;
+    padding: 15px;
 }
 .info{
     display: grid;
@@ -54,8 +40,8 @@ nav{
 .info2{
     background: white;
     padding: 40px;
-
-
+    
+    
 }
 
 .vantagens-itens{
@@ -82,17 +68,13 @@ nav{
     text-align: right;
 }
 
-.texto{
-    font-size: 30px;
-}
-
 .rodape{
     background: white;
     width: 100%;
-    padding: 0px;
+    padding: 40px;
     text-align: center;
     box-sizing: border-box;
-
+    
 }
 
 body{
@@ -102,12 +84,13 @@ body{
     font-family: Arial;
     background: #f7f7f7;
     margin-top: 60px;
-
-
-
+    
+    
+    
 }
 img{
     max-width: 100%;
+    display: block;
 }
 
 a{
@@ -118,9 +101,28 @@ a{
 }
 
 span{ 
-   font-weight: bold; 
+    font-weight: bold; 
 }
 
-h1{
-    font-size: 50px;
+nav{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+
 }
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
