@@ -16,7 +16,7 @@
     position: relative;
 }
 
-.grid{
+main{
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 1000px;
@@ -29,7 +29,7 @@
     border-radius: 4px;
     padding: 15px;
 }
-.info{
+.info1{
     display: grid;
     padding: 40px;
     text-align: right;
@@ -39,23 +39,18 @@
 
 .info2{
     background: white;
-    padding: 40px;
-    
-    
+    padding: 40px; 
 }
 
 .vantagens-itens{
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 10px 10px;
-    padding: 40px;
-    
+    padding: 20px;
 }
 
 .vantagens-itens p{
     grid-column: 2;
-    font-size: 20px;
-    margin: 0px;
 }
 
 .subtitulo{
@@ -65,16 +60,15 @@
     margin: 0px;
     padding: 40px;
     align-self: center;
-    text-align: right;
+    text-align: right; 
 }
 
-.rodape{
+footer{
     background: white;
     width: 100%;
     padding: 40px;
     text-align: center;
     box-sizing: border-box;
-    
 }
 
 body{
@@ -85,9 +79,6 @@ body{
     font-family: Arial;
     background: #f7f7f7;
     margin-top: 60px;
-    
-    
-    
 }
 img{
     max-width: 100%;
@@ -112,7 +103,6 @@ nav{
     gap: 20px;
     padding: 15px 30px;
     text-transform: uppercase;
-
 }
 
 p,
