@@ -120,6 +120,7 @@ h3{
     text-align: right;
     background: white;
     position: relative;
+    gap: 2rem;
 }
 
 .info2{
@@ -172,10 +173,33 @@ h3{
 
 @media (max-width:900px){
 
+    .info1{
+        text-align: left;
+    }
+
+    .vermais{
+    place-self: start;
+    }
+
+   .subtitulo,
+   .info2{
+    grid-column: 1 / -1;
+   }
+
+   .subtitulo{
+    margin: 3rem 0 3rem 0;
+    place-self: center;
+    text-align: center;
+    font-size: 4.8rem;
+   }
+
+   p{
+    font-size: 1.8rem;
+   }
 }
 
 
-@media (max-width: 850px) {
+@media (max-width: 600px) {
 
     body{
         gap: 2rem;
@@ -226,4 +250,3 @@ h3{
 
     }
 }
-
